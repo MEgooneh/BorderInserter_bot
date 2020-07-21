@@ -52,7 +52,7 @@ function logoWatermark1($file_name){
     $img->resize(400,400);
 
 	// and insert a watermark for example
-	$img->insert('img/1.png','center');
+	$img->insert('1.png','center');
 
 	// finally we save the image as a new file
 	$new_name = 'wm_'.mt_rand(10000,99999999999).'.jpg';
